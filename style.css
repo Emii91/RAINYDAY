@@ -278,6 +278,7 @@ h3 {
     background-image: url(../images/newarrivals.jpg);
     background-size: cover;
     background-repeat: no-repeat;
+    background-position: center;
     text-transform: uppercase;
     font-family: 'Source Sans Pro Black';
     color: #0A3641;
