@@ -62,8 +62,353 @@ label {
     display: none;
 }
 
+.head-module {
+    background-image: url(../images/headerphoto.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-transform: uppercase;
+    font-family: 'Source Sans Pro Black';
+    color: #0A3641;
+    padding: 230px;
+    margin: 0px;
+}
+
+h1 {
+font-size: 100px;
+text-align: center;
+color: #ffffff;
+}
+
+.shop-now .btn {
+    background-color: #8C3723;
+    color: #ffffff;
+    font-family: "Source Sans Pro Black";
+    text-transform: uppercase;
+    padding: 20px 100px;
+    font-size: 26px;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+}
+
+.shop-now {
+    display: block;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.module-4 {
+    display: flex;
+    max-width: 100%;
+    height: 500px;
+}
+
+.module-4-img-1 {
+    margin-left: 30px;
+}
+
+.module-4-img-3 {
+    width: 494px;
+    height: 250px;
+}
+
+.module-4-img-4 {
+    width: 494px;
+    height: 250px;
+    margin-top: 250px;
+    position: absolute;
+    margin-left: 695px;
+}
+
+/*Module Two*/
+
+.module-two {
+    height: 700px;
+}
+
+.module-two img {
+    max-width: 100%;
+    padding: 40px 0px 0px 40px;
+    margin-top: 80px;
+    width: 350px;
+}
+
+.module-two a {
+    text-transform: uppercase;
+    text-decoration: none;
+    font-family: 'Source Sans Pro Black';
+    font-size: 30px;
+    color: #0A3641; 
+    display: flex;
+    justify-content: center;
+    margin-bottom: 5px;
+}
+
+button.btn-small {
+    background-color: #8C3723;
+    color: #ffffff;
+    font-family: "Source Sans Pro Black";
+    font-size: 20px;
+    text-transform: uppercase;
+    padding: 10px 40px;
+    border: none;
+    border-radius: 25px;
+    margin-bottom: 80px;
+}
+
+.women-module {
+    float: left;
+    text-align: center;
+    margin-left: 100px;
+}
+
+.hikinggear-module {
+    float: left;
+    text-align: center;
+}
+
+.men-module {
+    float: left;
+    text-align: center;
+}
+
+
+/*Module 3*/
+
+.img-module3 {
+    max-width: 100%;
+    width: 50%;
+}
+
+section.module-3 {
+    display: flex;
+    margin: 100px 0px;
+}
+
+h3 {
+    text-align: center;
+    font-family: "Source Sans Pro Black";
+    color: #0A3641;
+    font-size: 30px;
+    margin: 160px 40px;
+}
+
+
+/*Products*/
+
+.product-item {
+    float: left;
+}
+
+.product-list {
+    margin-top: 80px;
+    padding: 20px;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+
+.product-list img {
+    margin-top: 30px;
+    margin-left: 20px;
+    width: 350px;
+}
+
+.product-detail {
+    margin: 100px 0px;
+}
+
+.product-top {
+    font-family: 'Source Sans Pro Black';
+    color: #0A3641; 
+    font-size: 50px; 
+    text-transform: uppercase;
+}
+
+.product-price {
+    font-family: 'Source Sans Pro Black';
+    color: #0A3641; 
+    font-size: 30px; 
+    text-transform: uppercase;
+    margin: 0px;
+    text-align: center;
+}
+
+.product-text {
+    font-family: 'Source Sans Pro Black';
+    color: #0A3641; 
+    font-size: 20px; 
+    text-transform: none;
+    margin: 0px;
+    text-align: center;
+}
+
+.button-size {
+    margin-left: 50%;
+    padding: 20px;
+}
+
+.btn-size {
+    background-color: #15748C;
+    color: #ffffff;
+    font-family: "Source Sans Pro Black";
+    font-size: 20px;
+    text-transform: uppercase;
+    padding: 10px 40px;
+    border: none;
+    border-radius: 25px;
+    margin-bottom: 30px;
+}
+
+.btn-cart {
+    background-color: #8C3723;
+    color: #ffffff;
+    font-family: "Source Sans Pro Black";
+    font-size: 20px;
+    text-transform: uppercase;
+    padding: 15px 70px;
+    border: none;
+    border-radius: 30px;
+    margin-bottom: 80px; 
+}
+
+/* New Arrivals page*/
+
+.head-module-newarrivals {
+    background-image: url(../images/newarrivals.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-transform: uppercase;
+    font-family: 'Source Sans Pro Black';
+    color: #0A3641;
+    padding: 230px;
+    margin: 0px;
+}
+
+.choose-size {
+    margin: 0px;
+    text-transform: uppercase;
+    text-align: left;
+    font-family: 'Source Sans Pro Regular';
+}
+
+
+/* Mens outerwear page*/
+
+.head-module-men {
+    background-image: url(../images/Mens\ outerwear.PNG);
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-transform: uppercase;
+    font-family: 'Source Sans Pro Black';
+    color: #0A3641;
+    padding: 230px;
+    margin: 0px;
+}
+
+
+/* Womens outerwear page*/
+
+.head-module-women {
+    background-image: url(../images/Womens\ outerwear.PNG);
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-transform: uppercase;
+    font-family: 'Source Sans Pro Black';
+    color: #0A3641;
+    padding: 230px;
+    margin: 0px;
+}
+
+/* Hiking Gear page*/
+
+.head-module-hikinggear {
+    background-image: url(../images/hikinggear.PNG);
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-transform: uppercase;
+    font-family: 'Source Sans Pro Black';
+    color: #0A3641;
+    padding: 230px;
+    margin: 0px;
+}
+
+h1.hiking {
+    text-transform: uppercase;
+    font-family: 'Source Sans Pro Black';
+    color: #0A3641;
+}
+
+.btn-cart-hike {
+    background-color: #8C3723;
+    color: #ffffff;
+    font-family: "Source Sans Pro Black";
+    font-size: 20px;
+    text-transform: uppercase;
+    padding: 15px 70px;
+    border: none;
+    border-radius: 30px;
+    margin-bottom: 80px; 
+    margin-left: 260px;
+}
+
+/* About Us page*/
+
+.head-module-aboutus {
+    background-image: url(../images/AboutUs.PNG);
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-transform: uppercase;
+    font-family: 'Source Sans Pro Black';
+    color: #0A3641;
+    padding: 230px;
+    margin: 0px;
+}
+
+.about-text {
+    font-family: 'Source Sans Pro Regular';
+    color: #0A3641;
+    padding: 30px 50px 20px 50px;  
+    margin: 0px; 
+    font-size: 20px;
+    text-align: center;
+    text-transform: none;
+}
+
+img.bottom-img {
+    max-width: 100%;
+    margin-top: 50px;
+}
+
+/*Contact Us*/
+
+h1.contact-about {
+    color: #0A3641; 
+    font-family: 'Source Sans Pro Black';
+}
+
+h2.contact-about {
+    text-align: center;
+    margin: 0px;
+    height: 398px
+}
+
+.contact-img {
+    float: left;
+}
+
+.clear {
+    clear: left;
+    text-align: center;
+    font-family: "Source Sans Pro Black";
+    color: #0A3641;
+    font-size: 30px;
+}
+
+
+/* Footer */
+
+
 footer {
-    position: fixed;
     bottom: 0px;
     width: 100%;
     background: #0A3641;
@@ -211,6 +556,33 @@ footer {
 .right form .btn button:hover {
     background: #000000;
 }
+
+@media only screen and (max-width: 1200px) {
+    header {
+        justify-content: space-between;
+    }
+    label {
+        display: block;
+        cursor: pointer;
+    }
+    .menu {
+        text-align: center;
+        width: 100%;
+        display: none;
+    }
+    .menu a {
+        display: block;
+        border-bottom: 1px solid #ffffff;
+        margin: 0;
+    }
+    #toggle:checked + .menu {
+        display: block;
+    }
+    .head-module {
+        padding: 100px;
+    }
+}
+
 
 @media screen and (max-width: 900px) {
     footer {
