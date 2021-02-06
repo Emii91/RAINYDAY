@@ -198,6 +198,7 @@ h3 {
 
 .product-item {
     float: left;
+    max-width: 100%;
 }
 
 .product-list {
@@ -238,7 +239,7 @@ h3 {
     color: #0A3641; 
     font-size: 20px; 
     text-transform: none;
-    margin: 0px;
+    margin: 0px 60px;
     text-align: center;
 }
 
@@ -289,6 +290,7 @@ h3 {
     text-transform: uppercase;
     text-align: left;
     font-family: 'Source Sans Pro Regular';
+    color: #0A3641;
 }
 
 
@@ -556,10 +558,6 @@ footer {
     background: #8C3723;
 }
 
-.btn button {
-    color: #0A3641;
-}
-
 .center .content .fas {
     font-size: 1.4375rem;
     background: #15748C;
@@ -627,12 +625,16 @@ footer {
     font-weight: 500;
     cursor: pointer;
     transition: .3s;
+    border-radius: 20px;
 }
 
 .right form .btn button:hover {
     background: #000000;
 }
 
+footer.item {
+    position: absolute;
+}
 
 /* Media Queries*/
 
@@ -673,6 +675,12 @@ footer {
     .product-item {
         float: none;
     }
+    .product-list {
+        grid-template-columns: repeat(2,1fr);
+    }
+    footer.item {
+        position: relative;
+    }
 }
 
 
@@ -686,6 +694,9 @@ footer {
     }
     .main-content .box {
         margin: 5px 0;
+    }
+    .product-list {
+        grid-template-columns: repeat(1,1fr);
     }
 }
 
