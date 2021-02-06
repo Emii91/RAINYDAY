@@ -243,6 +243,11 @@ h3 {
     text-align: center;
 }
 
+.products p {
+    color: #0A3641;
+    margin-left: 20px;
+}
+
 .button-size {
     margin-left: 50%;
     padding: 20px;
@@ -699,12 +704,19 @@ footer.item {
     .product-list {
         grid-template-columns: repeat(1,1fr);
     }
+    h2.clear {
+        margin-top: 1300px;
+    }
+    .contact-img {
+        /* float: left; */
+        margin-left: 250px;
+    }
+    h2.contact {
+        height: 200px;
+    }
 }
 
 @media only screen and (max-width: 750px) {
-    h1 {
-        font-size: 25px;
-    }
     .head-module {
         background-size: cover;
     }
@@ -721,6 +733,18 @@ footer.item {
     }
     .module-two img {
         margin-top: 10px;
+    }
+    img.img-module3 {
+    width: 100%;
+    }
+    h3 {
+        position: absolute;
+        color: white;
+        font-size: 20px;
+    }
+    .contact-img {
+        /* float: left; */
+        margin-left: 150px;
     }
 }
 
