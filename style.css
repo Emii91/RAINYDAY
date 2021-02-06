@@ -312,6 +312,7 @@ h3 {
     background-image: url(../images/Mens\ outerwear.PNG);
     background-size: cover;
     background-repeat: no-repeat;
+    background-position: center;
     text-transform: uppercase;
     font-family: 'Source Sans Pro Black';
     color: #0A3641;
@@ -718,6 +719,9 @@ footer {
     h2.contact {
         height: 200px;
     }
+    .head-module-men h1 {
+        font-size: 70px;
+    }
 }
 
 @media only screen and (max-width: 750px) {
@@ -752,6 +756,9 @@ footer {
     }
     .head-module-newarrivals h1 {
         font-size: 70px;
+    }
+    .head-module-men h1 {
+        font-size: 50px;
     }
 }
 
@@ -795,5 +802,15 @@ footer {
     }
     .head-module-newarrivals h1 {
         font-size: 40px;
+    }
+    .head-module-men h1 {
+        font-size: 30px;
+    }
+    .product-list img {
+        width: 250px;
+        margin-left: 80px;
+    }
+    .product-list p {
+        margin-left: 80px;
     }
 }
