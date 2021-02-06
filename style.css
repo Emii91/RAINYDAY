@@ -1,0 +1,226 @@
+@font-face {
+    font-family: "Source Sans Pro";
+    src: url("../fonts/Source_Sans_Pro/SourceSansPro-Black.ttf") format("truetype");
+    src: url("../fonts/Source_Sans_Pro/SourceSansPro-Light.ttf") format("truetype");
+    src: url("../fonts/Source_Sans_Pro/SourceSansPro-Regular.ttf") format("truetype");
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    color: #d9d9d9;
+    box-sizing: border-box;
+    font-family: 'Source Sans Pro Black';
+}
+
+.logo {
+    max-width: 200px;
+    padding: 20px;
+}
+
+header {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.nav {
+    border-bottom: 1px solid "EAEAEB";
+    text-align: right;
+    height: 70px;
+    line-height: 70px;
+}
+
+.menu {
+    margin: 0 30px 0 0;
+}
+
+.menu a {
+    clear: right;
+    text-decoration: none;
+    color: #0A3641;
+    background-color: #ffffff;
+    margin: 0 10px;
+    line-height: 70px;
+    text-transform: uppercase;
+    font-family: 'Source Sans Pro Black';
+    font-size: 20px;
+    padding: 10px;
+}
+
+label {
+    margin: 0 40px 0 0;
+    font-size: 26px;
+    line-height: 70px;
+    display: none;
+    width: 26px;
+    float: right;
+}
+
+#toggle {
+    display: none;
+}
+
+footer {
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+    background: #0A3641;
+}
+
+.main-content {
+    display: flex;
+}
+
+.main-content .box {
+    flex-basis: 50%;
+    padding: 10px 20px;
+}
+
+.box h2 {
+    font-size: 1.125rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    font-family: 'Source Sans Pro Black';
+}
+
+.box .content {
+    margin: 20px 0 0 0;
+    position: relative;
+}
+
+.box .content::before {
+    position: absolute;
+    content: '';
+    top: -10px;
+    height: 2px;
+    width: 100%;
+}
+
+.box .content:after {
+    position: absolute;
+    content: '';
+    height: 2px;
+    width: 15%;
+    background: #8C3723;
+    top: -10px;
+}
+
+.left .content p {
+    text-align: justify;
+    font-family: 'Source Sans Pro Regular';
+}
+
+.left .content .social {
+    margin: 20px 0 0 0;
+}
+
+.left .content .social a {
+    padding: 0 2px;
+}
+
+.left .content .social a span {
+    height: 40px;
+    width: 40px;
+    background: #0A3641;
+    line-height: 40px;
+    text-align: center;
+    font-size: 18px;
+    border-radius: 5px;
+    transition: 0.3s;
+}
+
+.left .content .social a span:hover {
+    background: #8C3723;
+}
+
+.btn button {
+    color: #0A3641;
+}
+
+.center .content .fas {
+    font-size: 1.4375rem;
+    background: #15748C;
+    height: 45px;
+    width: 45px;
+    line-height: 45px;
+    text-align: center;
+    border-radius: 50%;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+.center .content .fas:hover {
+    background: #8C3723;
+}
+
+.center .content .text {
+    font-size: 1.0625rem;
+    font-weight: 500;
+    padding-left: 10px;
+}
+
+.center .content .phone {
+    margin: 10px 0;
+}
+
+.right form text {
+    font-size: 1.0625rem;
+    margin-bottom: 2px;
+    color: #656565;
+}
+
+.right form .msg {
+    margin-top: 10px;
+}
+
+.right form input, 
+.right form textarea {
+    width: 100%;
+    font-size: 1.0625rem;
+    padding-left: 10px;
+    border: 1px solid #222222;
+}
+
+.right form input:focus,
+.right form textarea:focus {
+    outline-color: #3498db;
+}
+
+.right form input {
+    height: 35px;
+}
+
+.right form .btn {
+    margin-top: 10px;
+}
+    
+.right form .btn button {
+    height: 40px;
+    width: 100%;
+    border: none;
+    outline: none;
+    background: #8C3723;
+    font-size: 1.0625rem;
+    font-weight: 500;
+    cursor: pointer;
+    transition: .3s;
+}
+
+.right form .btn button:hover {
+    background: #000000;
+}
+
+@media screen and (max-width: 900px) {
+    footer {
+        bottom: 0px;
+    }
+    .main-content {
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+    .main-content .box {
+        margin: 5px 0;
+    }
+}
