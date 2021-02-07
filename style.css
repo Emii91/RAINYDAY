@@ -676,7 +676,7 @@ footer {
     width: 100%;
     height: 200px;
     overflow: hidden;
-    border: 1px solid silver;
+    border: 1px solid #0A3641;
     border-radius: 20px;
     margin-bottom: 20px;
 }
@@ -737,11 +737,12 @@ footer {
 
 .cart-total {
     flex: 0.25;
-    margin-left: 20px;
     padding: 20px;
     height: 240px;
-    border: 2px solid silver;
+    border: 1px solid #0A3641;
     border-radius: 20px;
+    margin-bottom: 50px;
+    width: 100%;
 }
 
 .cart-total p {
@@ -749,6 +750,10 @@ footer {
     justify-content: space-between;
     margin-bottom: 30px;
     font-size: 20px;
+}
+
+.cart-total p span {
+    color: #0A3641;
 }
 
 .cart-total a {
