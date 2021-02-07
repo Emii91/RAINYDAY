@@ -412,7 +412,7 @@ h1.hiking {
 
 img.bottom-img {
     max-width: 100%;
-    margin-top: 50px;
+    margin: 50px 0px;
 }
 
 /*Contact Us*/
@@ -727,7 +727,7 @@ footer {
 .product-price {
     margin-bottom: 20px;
     color: #0A3641;
-    display: flex;
+    text-align: center;
 }
 
 .product-remove {
@@ -919,9 +919,6 @@ footer {
     .contact-img {
         /* float: left; */
         margin-left: 250px;
-    }
-    h2.contact {
-        height: 200px;
     }
     .head-module-men h1 {
         font-size: 70px;
