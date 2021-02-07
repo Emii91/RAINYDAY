@@ -91,6 +91,10 @@ color: #ffffff;
     cursor: pointer;
 }
 
+.shop-now .btn:hover {
+    background-color: #0A3641;
+}
+
 .shop-now {
     display: block;
     text-align: center;
@@ -154,6 +158,10 @@ button.btn-small {
     border: none;
     border-radius: 25px;
     margin-bottom: 80px;
+}
+
+button.btn-small:hover {
+    background-color: #0A3641;
 }
 
 .women-module {
@@ -265,6 +273,10 @@ h3 {
     margin-bottom: 30px;
 }
 
+.btn-size:hover {
+    background-color: #0A3641;
+}
+
 .btn-cart {
     background-color: #8C3723;
     color: #ffffff;
@@ -275,6 +287,10 @@ h3 {
     border: none;
     border-radius: 30px;
     margin-bottom: 80px; 
+}
+
+.btn-cart:hover {
+    background-color: #0A3641;
 }
 
 /* New Arrivals page*/
@@ -463,7 +479,7 @@ textarea {
 
 textarea#message {
     height: 100px;
-    width: 100%;
+    width: 90%;
 }
 
 label.label-msg,
@@ -769,6 +785,57 @@ footer {
 
 .cart-total a:hover {
     background-color: #15748C;
+}
+
+.billing-info {
+    color: #0A3641;
+    text-align: center;
+    font-size: 40px;
+    margin: 10px;
+}
+
+.checkout-form {
+    color: #0A3641;
+    text-align: center;
+    margin: 30px;
+}
+
+.btn-btn-checkout {
+    background-color: #8C3723;
+    color: #ffffff;
+    font-family: "Source Sans Pro Black";
+    font-size: 20px;
+    text-transform: uppercase;
+    padding: 10px 100px;
+    border: none;
+    border-radius: 30px;
+    margin-bottom: 80px;
+    margin-left: 40%;
+}
+
+.btn-btn-checkout:hover {
+    background-color: #0A3641;
+}
+
+.h1-payment {
+    color: #0A3641;
+    font-family: 'Source Sans Pro Regular';
+    margin-top: 40px;
+}
+
+.h2-payment {
+    color: #0A3641;
+    font-family: 'Source Sans Pro Regular';
+    font-size: 30px;
+    text-align: center;
+}
+
+.p-payment {
+    color: #0A3641;
+    font-family: 'Source Sans Pro Regular';
+    font-size: 20px;
+    margin: 50px;
+    text-align: center;
 }
 
 
