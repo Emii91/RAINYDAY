@@ -56,6 +56,7 @@ label {
     display: none;
     width: 26px;
     float: right;
+    color: #0A3641;
 }
 
 #toggle {
@@ -381,6 +382,10 @@ h1.hiking {
     margin-left: 260px;
 }
 
+.btn-cart-hike:hover {
+    background-color: #0A3641;
+}
+
 /* About Us page*/
 
 .head-module-aboutus {
@@ -654,6 +659,7 @@ footer {
     cursor: pointer;
     transition: .3s;
     border-radius: 20px;
+    margin-left: 10px;
 }
 
 .right form .btn button:hover {
