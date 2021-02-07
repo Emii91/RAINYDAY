@@ -75,7 +75,7 @@ label {
 }
 
 h1 {
-font-size: 100px;
+font-size: 80px;
 text-align: center;
 color: #ffffff;
 }
@@ -906,8 +906,15 @@ footer {
     .product-list {
         grid-template-columns: repeat(1,1fr);
     }
+    .product-list img {
+        margin-left: 150px;
+    }
+    .products p {
+        margin-left: 150px;
+    }
     h2.clear {
-        margin-top: 1300px;
+        margin-top: 1200px;
+        font-size: 20px;
     }
     .contact-img {
         /* float: left; */
@@ -918,6 +925,9 @@ footer {
     }
     .head-module-men h1 {
         font-size: 70px;
+    }
+    h1 {
+        font-size: 50px;
     }
 }
 
@@ -945,7 +955,8 @@ footer {
     h3 {
         position: absolute;
         color: white;
-        font-size: 20px;
+        font-size: 15px;
+        margin: 50px;
     }
     .contact-img {
         /* float: left; */
@@ -969,7 +980,7 @@ footer {
         border-bottom: 1px solid #ffffff;
     }
     h1 {
-        font-size: 40px;
+        font-size: 30px;
     }
     .shop-now .btn {
         padding: 5px 30px;
@@ -991,12 +1002,21 @@ footer {
     .module-two a {
         font-size: 15px;
     }
+    .head-module-newarrivals {
+        padding: 100px;
+    }
     .women-module {
         margin-left: 0px;
     }
+    .head-module-women {
+        padding: 100px;
+    }
     .contact-img {
         height: 500px;
-        margin-left: 80px;
+        margin-left: 10px;
+    }
+    h2.contact {
+        font-size: 15px;
     }
     .shop-now {
         margin-bottom: 0px;
@@ -1007,12 +1027,24 @@ footer {
     .head-module-men h1 {
         font-size: 30px;
     }
+    .head-module-men {
+        padding: 100px;
+    }
+    .head-module-hikinggear {
+        padding: 100px;
+    }
+    .head-module-aboutus {
+        padding: 100px;
+    }
+    .about-text {
+        font-size: 15px;
+    }
     .product-list img {
         width: 250px;
-        margin-left: 80px;
+        margin-left: 50px;
     }
     .product-list p {
-        margin-left: 80px;
+        margin-left: 50px;
     }
     textarea#message {
         width: 200px;
