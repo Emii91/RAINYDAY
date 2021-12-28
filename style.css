@@ -129,14 +129,17 @@ color: #ffffff;
 
 .module-two {
     height: 700px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin-top: 80px;
 }
 
-.module-two img {
+/* .module-two img {
     max-width: 100%;
     padding: 40px 0px 0px 40px;
     margin-top: 80px;
     width: 350px;
-}
+} */
 
 .module-two a {
     text-transform: uppercase;
@@ -165,13 +168,13 @@ button.btn-small:hover {
     background-color: #0A3641;
 }
 
-.women-module {
+/* .women-module {
     float: left;
     text-align: center;
     margin-left: 150px;
-}
+} */
 
-.hikinggear-module {
+/* .hikinggear-module {
     float: left;
     text-align: center;
 }
@@ -179,13 +182,13 @@ button.btn-small:hover {
 .men-module {
     float: left;
     text-align: center;
-}
+} */
 
 
 /*Module 3*/
 
 .img-module3 {
-    max-width: 100%;
+    /* max-width: 100%; */
     width: 50%;
 }
 
@@ -441,7 +444,7 @@ h2.contact {
     font-family: "Source Sans Pro Black";
     color: #0A3641;
     font-size: 30px;
-    margin: 50px;
+    margin: 50px 400px;
 }
 
 input, 
